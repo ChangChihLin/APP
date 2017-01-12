@@ -217,7 +217,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
-                        android:text="null"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/data1"
@@ -242,7 +241,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium"/>
 
                     <TextView
-                        android:text="null"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/data2"
@@ -266,7 +264,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium"/>
 
                     <TextView
-                        android:text="null"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/data3"
@@ -287,7 +284,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
-                        android:text="null"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/data4"
@@ -309,7 +305,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
-                        android:text="null"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/data5"
@@ -332,7 +327,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
-                        android:text="null"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/data6"
@@ -356,7 +350,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
-                        android:text="null"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/data7"
