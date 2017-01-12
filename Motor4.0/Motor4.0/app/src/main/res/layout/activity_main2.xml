@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:text="保養選擇："
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:text="輸入"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sent"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:text="輸入愛車資訊"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:text="輸入"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sent1"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="確認保養清單："
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="機油：" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/oil"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">：
+
+                <TextView
+                    android:text="輪胎："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tires"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:text="齒輪油："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gearoil"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:text="其他需求："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:text="愛車資訊:"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_below="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:layout_marginTop="40dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:text="車主姓名:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView10"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:text="null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data1"
+                        android:layout_centerHorizontal="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:text="聯絡電話:"
+                        android:layout_alignLeft="@+id/textView4"
+                        android:layout_below="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView11"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <TextView
+                        android:text="null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:text="廠牌:"
+                        android:layout_alignLeft="@+id/textView3"
+                        android:layout_below="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView12"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <TextView
+                        android:text="null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data3"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:text="車號:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView13"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:text="null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data4"
+                        android:layout_centerHorizontal="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:text="出廠年份:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:text="null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data5"
+                        android:layout_alignBottom="@+id/textView3"
+                        android:layout_centerHorizontal="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:text="引擎編號:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:text="null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data6"
+                        android:layout_centerHorizontal="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:text="里程數:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView16"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:text="null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data7"
+                        android:layout_alignBottom="@+id/textView3"
+                        android:layout_centerHorizontal="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="10dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:text="返回主頁"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button1"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:text="email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sendEmail"
+                    android:layout_gravity="center"/>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:id="@+id/editText1"
+        android:elevation="1dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="空氣濾芯："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/air"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
